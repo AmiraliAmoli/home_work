@@ -787,7 +787,42 @@ for (int i = 1000; i <= 9999; i++)
    
 */
 
+/*
+        Console.Write("number of row:");
+        int rows = int.Parse(Console.ReadLine());
 
+        for (int n = 0; n < rows; n++)
+        {
+            // فاصله برای زیبایی نمایش مثلث
+            Console.Write(new string(' ', (rows - n) * 2));
+
+            for (int k = 0; k <= n; k++)
+            {
+                Console.Write($"{BinomialCoefficient(n, k),4} ");
+            }
+
+            Console.WriteLine();
+        }
+    
+
+    // تابع محاسبه ترکیب (n از k)
+    static long BinomialCoefficient(int n, int k)
+    {
+        return Factorial(n) / (Factorial(k) * Factorial(n - k));
+    }
+
+    // تابع محاسبه فاکتوریل
+    static long Factorial(int num)
+    {
+        long result = 1;
+        for (int i = 2; i <= num; i++)
+        {
+            result *= i;
+        }
+        return result;
+    }
+
+*/
 }
 
 

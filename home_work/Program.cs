@@ -739,23 +739,29 @@ for (int i = num1; i <= num2; i++)
 }
 */
 
-using System.Collections.Generic;
-
-for (int i = 1000; i < 10000; i++)
+/*
+for (int i = 1000; i <= 9999; i++)
 {
 	int first = i % 10;
-	
-    
-    if (first % 2 == 0)
-	{
-        i = i / 10;
-        Console.WriteLine(i);
+    int second = (i/10) % 10;
+    int thirth = (i / 100) % 10;
+	int fourth = i / 1000;
 
-        int second = i % 10;
-        if (!(second % 2 == 0))
-        {
-        }
-    }
+	bool first_even= first % 2 == 0;
+    bool second_odd = second % 2 == 1;
+    bool thirth_odd = thirth % 2 == 0;
+    bool fourth_even = fourth % 2 == 1;
+
+    if (first_even && second_odd && thirth_odd && fourth_even)
+	{
+		Console.WriteLine(i);
+	}
+
+
+
+
+}
+*/
 
 
 

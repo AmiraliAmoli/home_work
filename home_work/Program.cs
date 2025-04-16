@@ -823,6 +823,41 @@ for (int i = 1000; i <= 9999; i++)
     }
 
 */
+
+
+/*
+Console.Write("inter number:");
+int input = Convert.ToInt32(Console.ReadLine());
+int length_number=input.ToString().Length;
+int number,result=0;
+
+for (int i = 0; i < length_number; i++)
+{
+    number = input % 10;
+    input /= 10;
+
+
+    int sum=number,a=number-1; 
+    for (int j = 1; j < number; j++)
+    {
+        sum *= a;
+        a -= 1;
+    }
+
+    result += sum;
+
+}
+if (input == result)
+{
+    Console.WriteLine("{0} is a strong number",result);
+}
+else
+{
+    Console.WriteLine("{0} is not a strong number", result);
+
+}
+
+*/
 }
 
 

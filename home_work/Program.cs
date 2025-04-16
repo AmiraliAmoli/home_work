@@ -861,3 +861,15 @@ else
 }
 
 
+/*
+Console.Write("inter your str:");
+string input=Console.ReadLine();
+int lengh_inpur = input.Length;
+
+for (int i = lengh_inpur; i > 0; i--)
+{
+    Console.Write(input[i-1]);
+}
+
+*/
+

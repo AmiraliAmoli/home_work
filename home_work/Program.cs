@@ -764,6 +764,29 @@ for (int i = 1000; i <= 9999; i++)
 */
 
 
+/*
+        int target = 1000;
+        int count = 0;
+
+        for (int s200 = 0; s200 <= target / 200; s200++)
+        {
+            for (int s100 = 0; s100 <= target / 100; s100++)
+            {
+                for (int s50 = 0; s50 <= target / 50; s50++)
+                {
+                    int sum = (s200 * 200) + (s100 * 100) + (s50 * 50);
+                    if (sum == target)
+                    {
+                        count++;
+                        Console.WriteLine($"200: {s200}, 100: {s100}, 50 {s50}");
+		    }
+        }
+    }
+}
+ Console.WriteLine($"\n count of way {count}");
+   
+*/
+
 
 }
 

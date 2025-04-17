@@ -823,6 +823,28 @@ for (int i = 1000; i <= 9999; i++)
     }
 
 */
+/*
+int a=0;
+int b=1;
+int c=0;
+Console.Write("inter count of Fibonacci number to show:");
+int input = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 0; i < input; i++)
+{
+    if (i%2 == 0)
+    {
+        c = a + b;
+        a = c;
+    }
+    if (i % 2 == 1)
+    {
+        c = a + b;
+        b = c;
+    }
+    Console.WriteLine(c);
+}
+*/
 
 
 /*
